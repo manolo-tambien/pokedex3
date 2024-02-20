@@ -14,6 +14,8 @@
 		17AA24622B7DC927002E0D2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA24612B7DC927002E0D2F /* Persistence.swift */; };
 		17AA24652B7DC927002E0D2F /* pokedex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17AA24632B7DC927002E0D2F /* pokedex3.xcdatamodeld */; };
 		17AA246C2B7DE2EA002E0D2F /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA246B2B7DE2EA002E0D2F /* TempPokemon.swift */; };
+		17AA246E2B804B4D002E0D2F /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA246D2B804B4D002E0D2F /* FetchController.swift */; };
+		17AA24702B844FA8002E0D2F /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA246F2B844FA8002E0D2F /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		17AA24612B7DC927002E0D2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		17AA24642B7DC927002E0D2F /* pokedex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pokedex3.xcdatamodel; sourceTree = "<group>"; };
 		17AA246B2B7DE2EA002E0D2F /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
+		17AA246D2B804B4D002E0D2F /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		17AA246F2B844FA8002E0D2F /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				17AA24582B7DC926002E0D2F /* pokedex3App.swift */,
 				17AA245A2B7DC926002E0D2F /* ContentView.swift */,
 				17AA246B2B7DE2EA002E0D2F /* TempPokemon.swift */,
+				17AA246D2B804B4D002E0D2F /* FetchController.swift */,
+				17AA246F2B844FA8002E0D2F /* PokemonViewModel.swift */,
 				17AA24612B7DC927002E0D2F /* Persistence.swift */,
 				17AA24632B7DC927002E0D2F /* pokedex3.xcdatamodeld */,
 				17AA245C2B7DC927002E0D2F /* Assets.xcassets */,
@@ -148,6 +154,8 @@
 			files = (
 				17AA24652B7DC927002E0D2F /* pokedex3.xcdatamodeld in Sources */,
 				17AA24622B7DC927002E0D2F /* Persistence.swift in Sources */,
+				17AA246E2B804B4D002E0D2F /* FetchController.swift in Sources */,
+				17AA24702B844FA8002E0D2F /* PokemonViewModel.swift in Sources */,
 				17AA246C2B7DE2EA002E0D2F /* TempPokemon.swift in Sources */,
 				17AA245B2B7DC926002E0D2F /* ContentView.swift in Sources */,
 				17AA24592B7DC926002E0D2F /* pokedex3App.swift in Sources */,
