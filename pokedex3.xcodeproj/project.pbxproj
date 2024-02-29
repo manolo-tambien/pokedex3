@@ -19,6 +19,7 @@
 		17C11E212B86F9F7004B007B /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C11E202B86F9F7004B007B /* PokemonDetail.swift */; };
 		17C11E232B86FC78004B007B /* SamplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C11E222B86FC78004B007B /* SamplePokemon.swift */; };
 		17C11E252B8ACDA6004B007B /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C11E242B8ACDA6004B007B /* Pokemon+Ext.swift */; };
+		17C11E272B8AE227004B007B /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C11E262B8AE227004B007B /* Stats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		17C11E202B86F9F7004B007B /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 		17C11E222B86FC78004B007B /* SamplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePokemon.swift; sourceTree = "<group>"; };
 		17C11E242B8ACDA6004B007B /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
+		17C11E262B8AE227004B007B /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				17AA24582B7DC926002E0D2F /* pokedex3App.swift */,
 				17AA245A2B7DC926002E0D2F /* ContentView.swift */,
 				17C11E202B86F9F7004B007B /* PokemonDetail.swift */,
+				17C11E262B8AE227004B007B /* Stats.swift */,
 				17C11E222B86FC78004B007B /* SamplePokemon.swift */,
 				17AA246B2B7DE2EA002E0D2F /* TempPokemon.swift */,
 				17AA246D2B804B4D002E0D2F /* FetchController.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17AA24652B7DC927002E0D2F /* pokedex3.xcdatamodeld in Sources */,
+				17C11E272B8AE227004B007B /* Stats.swift in Sources */,
 				17AA24622B7DC927002E0D2F /* Persistence.swift in Sources */,
 				17C11E212B86F9F7004B007B /* PokemonDetail.swift in Sources */,
 				17C11E252B8ACDA6004B007B /* Pokemon+Ext.swift in Sources */,

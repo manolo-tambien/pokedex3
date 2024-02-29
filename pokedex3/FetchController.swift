@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreData
 
 struct FetchController{
     // Creates the differents error responses
@@ -14,10 +15,14 @@ struct FetchController{
     }
     
     // Sets the value for the base URL to get the values of pokemons
-    private let baseURL = URL(string: "http://pokeapi.co/api/v2/pokemon/")!
+    private let baseURL = URL(string: "https://pokeapi.co/api/v2/pokemon/")!
     
     // Get all the pokemons (TempPokemon) in an array. Only the first 386 pokemons using the "limit" parameter
-    func fetchAllPokemon() async throws -> [TempPokemon] {
+    func fetchAllPokemon() async throws -> [TempPokemon]? {
+        if havePokemon() {
+            return nil
+        }
+        
         var allPokemon: [TempPokemon] = []
         
         // Add the parameter "limit" to the url query
@@ -59,5 +64,24 @@ struct FetchController{
         print("Fetched \(tempPokemon.id): \(tempPokemon.name)")
         
         return tempPokemon
+    }
+    
+    private func havePokemon() -> Bool{
+        let context = PersistenceController.shared.container.newBackgroundContext()
+        
+        let fetchRequest: NSFetchRequest<Pokemon> = Pokemon.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "id IN %@", [1, 386])
+        
+        do{
+            let checkPokemon = try context.fetch(fetchRequest)
+            
+            if checkPokemon.count == 2 {
+                return true
+            }
+        } catch{
+            print("Fetch failed: \(error)")
+        }
+        
+        return false
     }
 }
